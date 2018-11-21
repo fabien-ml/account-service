@@ -1,0 +1,48 @@
+#
+#  Configuration used for all spring profiles
+#
+
+spring:
+  application:
+    name: accountservice-service
+
+  # Enable color in terminal
+  output:
+    ansi:
+      enabled: ALWAYS
+
+  # Datasource config
+  datasource:
+    url: jdbc:h2:mem:accountdb
+    username: sa
+    password:
+    driver-class-name: org.h2.Driver
+
+
+  # Tell hibernate to not generate database schema
+  jpa:
+    hibernate:
+      ddl-auto: validate
+
+
+  # Used to deal with java.time API
+  jackson:
+    serialization:
+      WRITE_DATES_AS_TIMESTAMPS: false
+
+# Override Tomcat server port
+server:
+  port: 8080
+
+---
+# Separe each spring profile config by 3 "-"
+
+#
+# Configuration used for "dev" spring profile
+#
+
+spring:
+  profiles: dev
+
+server:
+  port: 9000

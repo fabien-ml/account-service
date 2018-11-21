@@ -1,0 +1,10 @@
+INSERT INTO account (username, password, first_name, last_name, birth_date) VALUES ('k.reid', '$2y$10$hIOZN26MnZnmdbaCrBnWK./hWd3YR1w7iN9ECowbayE9WDEpkaEqy', 'Kathryn', 'Ried', '1993-01-03');
+INSERT INTO account (username, password, first_name, last_name, birth_date) VALUES ('b.steele', '$2y$10$hIOZN26MnZnmdbaCrBnWK./hWd3YR1w7iN9ECowbayE9WDEpkaEqy', 'Blanche', 'Steele', '1974-05-27');
+INSERT INTO account (username, password, first_name, last_name, birth_date) VALUES ('w.boyd', '$2y$10$hIOZN26MnZnmdbaCrBnWK./hWd3YR1w7iN9ECowbayE9WDEpkaEqy', 'Walter', 'Boyd', '2000-08-30');
+INSERT INTO account (username, password, first_name, last_name, birth_date) VALUES ('n.curry', '$2y$10$hIOZN26MnZnmdbaCrBnWK./hWd3YR1w7iN9ECowbayE9WDEpkaEqy', 'Noah', 'Curry', '1995-12-23');
+INSERT INTO account (username, password, first_name, last_name, birth_date) VALUES ('c.harris', '$2y$10$hIOZN26MnZnmdbaCrBnWK./hWd3YR1w7iN9ECowbayE9WDEpkaEqy', 'Clayton', 'Harris', '1953-10-15');
+INSERT INTO account (username, password, first_name, last_name, birth_date) VALUES ('f.armstrong', '$2y$10$hIOZN26MnZnmdbaCrBnWK./hWd3YR1w7iN9ECowbayE9WDEpkaEqy', 'Floyd', 'Armstrong', '1984-02-16');
+INSERT INTO account (username, password, first_name, last_name, birth_date) VALUES ('m.mcdonald', '$2y$10$hIOZN26MnZnmdbaCrBnWK./hWd3YR1w7iN9ECowbayE9WDEpkaEqy', 'Maria', 'McDonald', '1990-09-14');
+INSERT INTO account (username, password, first_name, last_name, birth_date) VALUES ('h.davidson', '$2y$10$hIOZN26MnZnmdbaCrBnWK./hWd3YR1w7iN9ECowbayE9WDEpkaEqy', 'Howard', 'Davidson', '1977-06-08');
+INSERT INTO account (username, password, first_name, last_name, birth_date) VALUES ('j.porter', '$2y$10$hIOZN26MnZnmdbaCrBnWK./hWd3YR1w7iN9ECowbayE9WDEpkaEqy', 'Jim', 'Porter', '1998-04-29');
+INSERT INTO account (username, password, first_name, last_name, birth_date) VALUES ('b.pope', '$2y$10$hIOZN26MnZnmdbaCrBnWK./hWd3YR1w7iN9ECowbayE9WDEpkaEqy', 'Brian', 'Pope', '1995-07-12');
